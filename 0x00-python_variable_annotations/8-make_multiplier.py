@@ -11,4 +11,4 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         return i * multiplier
 
     """returns the result"""
-    return make_multiplier
+    return multiples
