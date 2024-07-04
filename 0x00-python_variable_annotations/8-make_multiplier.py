@@ -6,5 +6,6 @@ from typing import Callable
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """complex types functions"""
     def multiples(i: float) -> float:
+        """second func with callable"""
         return i * multiplier
     return make_multiplier
